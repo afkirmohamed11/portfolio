@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Database, GraduationCap, Briefcase, FolderGit2, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
 import ProjectsSection from './ProjectsSection';
 import profile from './images/profile.png';
@@ -8,8 +8,27 @@ import dataCampLogo from './images/DataCamp.png';
 import dataScience365Logo from './images/365DataScience.png';
 import talendLogo from './images/Talend.png';
 
+
 function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (isMobileMenuOpen && 
+          menuRef.current && 
+          !menuRef.current.contains(event.target) &&
+          !buttonRef.current.contains(event.target)) {
+        setIsMobileMenuOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -39,6 +58,7 @@ function App() {
             
             {/* Mobile menu button */}
             <button 
+              ref={buttonRef}
               onClick={toggleMobileMenu}
               className="md:hidden p-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none"
             >
@@ -73,7 +93,7 @@ function App() {
 
           {/* Mobile menu */}
           {isMobileMenuOpen && (
-            <div className="md:hidden">
+            <div ref={menuRef} className="md:hidden">
               <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-800 rounded-lg mt-2">
                 {navItems.map((item) => (
                   <a
@@ -90,7 +110,6 @@ function App() {
           )}
         </div>
       </nav>
-
 
       {/* About Section */}
 <section id="about" className="pt-32 pb-20 bg-gray-800 px-6">

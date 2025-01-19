@@ -301,6 +301,7 @@ function App() {
       
 <ProjectsSection />
 {/* Certifications Section */}
+{/* Certifications Section */}
 <section id="certifications" className="py-16 bg-gray-800 px-6">
   <div className="container mx-auto">
     <div className="flex items-center mb-12">
@@ -308,11 +309,12 @@ function App() {
       <h2 className="text-3xl font-bold">Certifications</h2>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div className="bg-gray-900 shadow-lg p-4 md:p-6 rounded-lg flex flex-col md:flex-row items-center text-center md:text-left">
+      {/* IBM Data Engineering Certificate */}
+      <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={ibmLogo}
           alt="IBM"
-          className="w-16 h-16 md:w-24 md:h-24 object-contain mb-4 md:mb-0 md:mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">IBM Data Engineering Professional Certificate</h3>
@@ -326,11 +328,12 @@ function App() {
         </div>
       </div>
       
+      {/* Google Agile Project Management */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={googleLogo}
           alt="Google"
-          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">Agile Project Management</h3>
@@ -344,11 +347,12 @@ function App() {
         </div>
       </div>
 
+      {/* AWS Cloud Concepts */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={dataCampLogo}
           alt="DataCamp"
-          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">AWS Cloud Concepts</h3>
@@ -362,11 +366,12 @@ function App() {
         </div>
       </div>
 
+      {/* NoSQL, Big Data, and Spark Foundations */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={ibmLogo}
           alt="IBM"
-          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">NoSQL, Big Data, and Spark Foundations Specialization</h3>
@@ -380,11 +385,12 @@ function App() {
         </div>
       </div>
 
+      {/* Advanced SQL for Data Engineering */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={dataScience365Logo}
           alt="365 Data Science"
-          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">Advanced SQL for Data Engineering</h3>
@@ -398,11 +404,12 @@ function App() {
         </div>
       </div>
 
+      {/* Talend Data Integration */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg flex items-center">
         <img
           src={talendLogo}
           alt="Talend"
-          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg"
+          className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
         />
         <div>
           <h3 className="text-xl font-bold mb-2">Talend Data Integration Certification Preparation training</h3>

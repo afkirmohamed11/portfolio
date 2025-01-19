@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Database, GraduationCap, Briefcase, FolderGit2, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
 import ProjectsSection from './ProjectsSection';
 import profile from './images/profile.png';
@@ -8,52 +8,88 @@ import dataCampLogo from './images/DataCamp.png';
 import dataScience365Logo from './images/365DataScience.png';
 import talendLogo from './images/Talend.png';
 
-
 function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  const navItems = [
+    { href: "#about", text: "About" },
+    { href: "#education", text: "Education" },
+    { href: "#experience", text: "Experience" },
+    { href: "#skills", text: "Skills" },
+    { href: "#projects", text: "Projects" },
+    { href: "#certifications", text: "Certifications" },
+    { href: "#contact", text: "Contact" }
+  ];
+
   return (
     <div className="bg-gray-900 text-gray-100">
       {/* Navigation */}
       <nav className="fixed w-full bg-gray-900 shadow-lg z-50">
-  <div className="max-w-7xl mx-auto px-4">
-    <div className="flex justify-between items-center h-16 mt-8">
-      <div className="flex items-center">
-        <span className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-          AFKIR Mohamed
-        </span>
-      </div>
-      {/* Mobile menu button */}
-      <button className="md:hidden p-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none">
-        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-      {/* Desktop menu */}
-      <div className="hidden md:flex items-center space-x-2 lg:space-x-4 ml-auto">
-        <a href="#about" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          About
-        </a>
-        <a href="#education" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Education
-        </a>
-        <a href="#experience" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Experience
-        </a>
-        <a href="#skills" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Skills
-        </a>
-        <a href="#projects" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Projects
-        </a>
-        <a href="#certifications" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Certifications
-        </a>
-        <a href="#contact" className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg">
-          Contact
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="flex justify-between items-center h-16 mt-8">
+            <div className="flex items-center">
+              <span className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+                AFKIR Mohamed
+              </span>
+            </div>
+            
+            {/* Mobile menu button */}
+            <button 
+              onClick={toggleMobileMenu}
+              className="md:hidden p-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none"
+            >
+              <svg 
+                className="h-6 w-6" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
+                />
+              </svg>
+            </button>
+
+            {/* Desktop menu */}
+            <div className="hidden md:flex items-center space-x-2 lg:space-x-4 ml-auto">
+              {navItems.map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-gray-300 hover:text-blue-400 transition-colors duration-300 text-lg font-semibold hover:bg-blue-600 px-4 py-2 rounded-lg"
+                >
+                  {item.text}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* Mobile menu */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden">
+              <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-gray-800 rounded-lg mt-2">
+                {navItems.map((item) => (
+                  <a
+                    key={item.href}
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-gray-300 hover:text-blue-400 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 hover:bg-gray-700"
+                  >
+                    {item.text}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </nav>
 
 
       {/* About Section */}

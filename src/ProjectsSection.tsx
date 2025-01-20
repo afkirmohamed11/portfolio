@@ -35,7 +35,7 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      name: "Heart Disease Prediction App",
+      name: "Heart Disease Prediction",
       description:
         "I developed a heart disease prediction model using machine learning techniques in Python. I deployed the model with Streamlit and Docker to ensure user-friendly access.",
       tools: ["Python", "Machine Learning", "Streamlit", "Docker"],

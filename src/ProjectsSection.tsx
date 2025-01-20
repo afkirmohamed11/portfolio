@@ -17,7 +17,7 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      name: "Property Rental Price Prediction App",
+      name: "Property Rental Price Prediction",
       description:
         "I built a comprehensive model for predicting apartment prices in Morocco. I performed web scraping from a Moroccan website and preprocessed the data using Python. I developed a regression model using Gradient Boosting, Random Forest, and Lasso algorithms to predict apartment prices across ten Moroccan cities.",
       tools: ["Python", "Web Scraping", "BeautifulSoup", "Gradient Boosting", "Random Forest", "Lasso"],
@@ -35,7 +35,7 @@ const ProjectsSection = () => {
     },
     {
       id: 3,
-      name: "Heart Disease Prediction",
+      name: "Heart Disease Prediction App",
       description:
         "I developed a heart disease prediction model using machine learning techniques in Python. I deployed the model with Streamlit and Docker to ensure user-friendly access.",
       tools: ["Python", "Machine Learning", "Streamlit", "Docker"],

@@ -10,6 +10,8 @@ import img5 from "./images/5.png";
 import img6 from "./images/6.png";
 import img7 from "./images/7.png";
 import img8 from "./images/8.png";
+import img9 from "./images/9.png";
+import img10 from "./images/10.png";
 
 const ProjectsSection = () => {
   const [showMore, setShowMore] = useState(false);
@@ -22,7 +24,7 @@ const ProjectsSection = () => {
         "I built a comprehensive model for predicting apartment prices in Morocco. I performed web scraping from a Moroccan website and preprocessed the data using Python. I developed a regression model using Gradient Boosting, Random Forest, and Lasso algorithms to predict apartment prices across ten Moroccan cities.",
       tools: ["Python", "Web Scraping", "BeautifulSoup", "Gradient Boosting", "Random Forest", "Lasso"],
       github_link: "https://github.com/afkirmohamed11/RentalHousingPricePrediction.git",
-      image: img1, // Imported image
+      image: img1, 
     },
     {
       id: 2,
@@ -71,6 +73,24 @@ const ProjectsSection = () => {
     },
     {
       id: 7,
+      name: "Sales Performance Tracker Dashboard using Power BI",
+      description:
+        "I created an interactive sales dashboard in Power BI to visualize key metrics like ordered and invoiced quantities, amounts, and profits. The dashboard includes bar charts, area charts, and KPIs to track performance over time. Using Power Query for ETL and DAX for key calculations, I established data relationships through a Calendar Table to provide actionable insights into sales trends and support data-driven decision-making.",
+      tools: ["Power BI", "Excel", "DAX", "Power Query"],
+      github_link: "https://github.com/afkirmohamed11/SalesPerformanceTracker.git",
+      image: img9, // Imported image
+    },
+    {
+      id: 8,
+      name: "Customer Feedback Insights Dashboard by Power BI & DAX",
+      description:
+        "My friend & I created an interactive customer feedback dashboard using Power BI to analyze and visualize reviews collected through Google Forms. The dashboard features bar charts, line graphs, and KPIs to provide detailed insights into customer satisfaction. I designed a dynamic data model with flexible parameters and relationships, allowing for deep exploration of the data. Key indicators such as the number of reviews, average rating, and analytical benchmarks are calculated using DAX, enabling effective tracking and analysis of customer feedback.",
+      tools: ["Power BI", "Excel", "DAX", "Power Query", "Google Forms"],
+      github_link: "https://github.com/afkirmohamed11/CustomerFeedback-Insights.git",
+      image: img10, // Imported image
+    },
+    {
+      id: 9,
       name: "Exam Management Application",
       description:
         "My classmate and I developed an exam management web application using Spring Boot, Spring Security, and Spring Data JPA with a JSP frontend and MySQL database. The application facilitated exam management, optimized administration and teacher management, and organized pedagogical elements. We implemented a three-layered architecture with distinct Presentation, Business Services, and Data Access layers, adhering to the MVC model.",
@@ -79,14 +99,15 @@ const ProjectsSection = () => {
       image: img7, // Imported image
     },
     {
-      id: 8,
+      id: 10,
       name: "Student Desktop Management Application",
       description:
         "I developed a Python application, implementing the user interface with the Tkinter library and utilizing MySQL for data storage.",
       tools: ["Python", "Tkinter", "MySQL"],
       github_link: "https://github.com/afkirmohamed11/SchoolStudentManagementApp.git",
       image: img8, // Imported image
-    },
+    }
+    
   ];
 
   const displayedProjects = showMore ? projects : projects.slice(0, 4);

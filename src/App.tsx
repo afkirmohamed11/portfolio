@@ -130,6 +130,11 @@ function App() {
     Afkir Mohamed
   </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> who transforms complex data challenges into actionable insights. With expertise in data pipelines, ETL processes, and database management, I bring a comprehensive skill set in Machine Learning, Data Science, and Advanced Analytics. My experience spans from developing predictive models to implementing scalable data solutions. I leverage my analytical capabilities to extract meaningful patterns from data, applying statistical analysis and ML algorithms to drive data-informed decisions. I'm constantly expanding my technical toolkit and seeking opportunities where I can apply my combined expertise in data engineering and advanced analytics to create innovative solutions.
 </p>
+<p className="text-gray-300 text-xl leading-relaxed">
+  I am a strong team player with excellent communication and leadership skills, fluent in Arabic, French, and English, enabling me to collaborate effectively in diverse environments.
+</p>
+
+
 
         <div className="mt-6 flex flex-wrap items-center gap-4">
           <div className="flex space-x-4">

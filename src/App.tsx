@@ -285,6 +285,8 @@ function App() {
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Hadoop</span>
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Kafka</span>
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Spark</span>
+          <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Airflow</span>
+
 
         </div>
       </div>

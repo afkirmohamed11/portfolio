@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Database, GraduationCap, Briefcase, FolderGit2, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
+import { Database, GraduationCap, Briefcase, FolderGit2, Phone, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
 import ProjectsSection from './ProjectsSection';
 import profile from './images/profile.png';
 import ibmLogo from './images/IBM.png';
@@ -112,6 +112,7 @@ function App() {
       </nav>
 
       {/* About Section */}
+{/* About Section */}
 <section id="about" className="pt-32 pb-20 bg-gray-800 px-6">
   <div className="container mx-auto">
     <div className="flex items-center mb-12">
@@ -119,59 +120,62 @@ function App() {
       <h2 className="text-3xl font-bold">About Me</h2>
     </div>
     <div className="bg-gray-900 shadow-lg p-4 md:p-8 rounded-lg flex flex-col md:flex-row md:gap-8 items-center">
-      <img 
+      <img
         src={profile}
         alt="Profile"
         className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover mb-6 md:mb-0"
       />
       <div className="flex flex-col justify-between">
-      <p className="text-gray-300 text-xl leading-relaxed">
-  I'm <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-    Afkir Mohamed
-  </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> who transforms complex data challenges into actionable insights. With expertise in data pipelines, ETL processes, and database management, I bring a comprehensive skill set in Machine Learning, Data Science, and Advanced Analytics. My experience spans from developing predictive models to implementing scalable data solutions. I leverage my analytical capabilities to extract meaningful patterns from data, applying statistical analysis and ML algorithms to drive data-informed decisions. I'm constantly expanding my technical toolkit and seeking opportunities where I can apply my combined expertise in data engineering and advanced analytics to create innovative solutions.
-</p>
+        <p className="text-gray-300 text-xl leading-relaxed">
+          I'm <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
+            Afkir Mohamed
+          </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> who transforms complex data challenges into actionable insights. With expertise in data pipelines, ETL processes, and database management, I bring a comprehensive skill set in Machine Learning, Data Science, and Advanced Analytics. My experience spans from developing predictive models to implementing scalable data solutions. I leverage my analytical capabilities to extract meaningful patterns from data, applying statistical analysis and ML algorithms to drive data-informed decisions. I'm constantly expanding my technical toolkit and seeking opportunities where I can apply my combined expertise in data engineering and advanced analytics to create innovative solutions.
+        </p>
 
-<p className="text-gray-300 text-xl leading-relaxed">
-  I am a strong team player with excellent communication and leadership skills, fluent in <span className="font-bold text-blue-300">Arabic</span>, and proficient in both <span className="font-bold text-blue-300">French</span> and <span className="font-bold text-blue-300">English</span>, allowing me to collaborate effectively in diverse environments.
-</p>
-
+        <p className="text-gray-300 text-xl leading-relaxed">
+          I am a strong team player with excellent communication and leadership skills, fluent in <span className="font-bold text-blue-300">Arabic</span>, and proficient in both <span className="font-bold text-blue-300">French</span> and <span className="font-bold text-blue-300">English</span>, allowing me to collaborate effectively in diverse environments.
+        </p>
 
         <div className="mt-6 flex flex-wrap items-center gap-4">
           <div className="flex space-x-4">
-            <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer" 
+            <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer"
               className="flex items-center text-blue-400 hover:text-blue-300">
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer" 
+            <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer"
               className="flex items-center text-blue-400 hover:text-blue-300">
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </a>
-            <a href="https://x.com/mohamed1910118?s=09" target="_blank" rel="noopener noreferrer" 
+            <a href="https://x.com/mohamed1910118?s=09" target="_blank" rel="noopener noreferrer"
               className="flex items-center text-blue-400 hover:text-blue-300">
               <Twitter className="w-5 h-5 mr-2" />
               Twitter
             </a>
+            <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300">
+              <Phone className="w-5 h-5 mr-2" />
+              +212 645-766901
+            </a>
           </div>
-          
+
           {/* Get Resume Button */}
-          <a 
-            href="https://drive.google.com/file/d/1dASBOJtIV-82mmEUyI3yy1ngcqmdAJSH/view?usp=drive_link" 
-            target="_blank" 
+          <a
+            href="https://drive.google.com/file/d/1dASBOJtIV-82mmEUyI3yy1ngcqmdAJSH/view?usp=drive_link"
+            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white rounded-full shadow-lg hover:bg-gradient-to-l transition-colors duration-200 group ml-auto"
           >
-            <svg 
-              className="w-5 h-5 mr-2 group-hover:animate-bounce" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="w-5 h-5 mr-2 group-hover:animate-bounce"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
                 d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
               />
             </svg>
@@ -184,6 +188,7 @@ function App() {
 </section>
 
 
+
       {/* Education Section */}
 <section id="education" className="py-16 bg-gray-800 px-6">
   <div className="container mx-auto">
@@ -192,18 +197,34 @@ function App() {
       <h2 className="text-3xl font-bold">Education</h2>
     </div>
     <div className="grid gap-8">
+      {/* Entry 1 */}
       <div className="bg-gray-900 shadow-lg p-6 rounded-lg">
-        <div>
-          <h3 className="text-xl font-bold text-blue-400 text-2xl">Data Engineering Degree</h3>
-          <p className="font-bold text-gray-300 text-xl">National School of Applied Sciences of Al Hoceima</p>
-<p className="text-gray-300 text-xl">2020 - Present</p>
+        <h3 className="text-xl font-bold text-blue-400 text-2xl">Data Engineering Diploma</h3>
+        <p className="font-bold text-gray-300 text-xl">
+          National School of Applied Sciences of Al Hoceima
+        </p>
+        <p className="text-gray-300 text-xl">2022 - Present</p>
+      </div>
 
-        </div>
+      {/* Entry 2 */}
+      <div className="bg-gray-900 shadow-lg p-6 rounded-lg">
+        <h3 className="text-xl font-bold text-blue-400 text-2xl">Preparatory Cycle</h3>
+        <p className="font-bold text-gray-300 text-xl">
+          National School of Applied Sciences of Al Hoceima
+        </p>
+        <p className="text-gray-300 text-xl">2020 - 2022</p>
+      </div>
+      {/* Entry 3 */}
+      <div className="bg-gray-900 shadow-lg p-6 rounded-lg">
+        <h3 className="text-xl font-bold text-blue-400 text-2xl">High School Diploma</h3>
+        <p className="font-bold text-gray-300 text-xl">
+          Imzouren High School
+        </p>
+        <p className="text-gray-300 text-xl">2019 - 2020</p>
       </div>
     </div>
   </div>
 </section>
-
 
       {/* Experience Section */}
       {/* Experience Section */}
@@ -259,6 +280,7 @@ function App() {
         <div className="flex flex-wrap gap-2">
           
         <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">SQL</span>
+        <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">PL-SQL</span>
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">NoSQL</span>
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Hadoop</span>
           <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">Kafka</span>
@@ -449,38 +471,43 @@ function App() {
     </div>
   </div>
 </section>
-      {/* Contact Section */}
-      <section id="contact" className="py-16 bg-gray-800 px-6">
-        <div className="container mx-auto">
-          <div className="flex items-center mb-12">
-            <Mail className="w-8 h-8 text-blue-400 mr-4" />
-            <h2 className="text-3xl font-bold">Contact</h2>
-          </div>
-          <div className="bg-gray-900 shadow-lg p-8 rounded-lg">
-            <p className="text-gray-100 mb-6">
-              I'm always open to discussing new opportunities and interesting projects.
-              Feel free to reach out!
-            </p>
-            <div className="flex flex-col space-y-4">
-              <a href="mailto:mohamedafkir078@gmail.com" 
-                className="flex items-center text-blue-400 hover:text-blue-300">
-                <Mail className="w-5 h-5 mr-2" />
-                mohamedafkir078@gmail.com
-              </a>
-              <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer"
-                className="flex items-center text-blue-400 hover:text-blue-300">
-                <Linkedin className="w-5 h-5 mr-2" />
-                LinkedIn Profile
-              </a>
-              <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer"
-                className="flex items-center text-blue-400 hover:text-blue-300">
-                <Github className="w-5 h-5 mr-2" />
-                GitHub Profile
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Contact Section */} 
+<section id="contact" className="py-16 bg-gray-800 px-6"> 
+  <div className="container mx-auto"> 
+    <div className="flex items-center mb-12"> 
+      <Mail className="w-8 h-8 text-blue-400 mr-4" /> 
+      <h2 className="text-3xl font-bold">Contact</h2> 
+    </div> 
+    <div className="bg-gray-900 shadow-lg p-8 rounded-lg"> 
+      <p className="text-gray-100 mb-6"> 
+        I'm always open to discussing new opportunities and interesting projects. 
+        Feel free to reach out! 
+      </p> 
+      <div className="flex flex-col space-y-4"> 
+        <a href="mailto:mohamedafkir078@gmail.com"  
+          className="flex items-center text-blue-400 hover:text-blue-300"> 
+          <Mail className="w-5 h-5 mr-2" /> 
+          mohamedafkir078@gmail.com 
+        </a> 
+        <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer" 
+          className="flex items-center text-blue-400 hover:text-blue-300"> 
+          <Linkedin className="w-5 h-5 mr-2" /> 
+          LinkedIn Profile 
+        </a> 
+        <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer" 
+          className="flex items-center text-blue-400 hover:text-blue-300"> 
+          <Github className="w-5 h-5 mr-2" /> 
+          GitHub Profile 
+        </a> 
+        <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300"> 
+          <Phone className="w-5 h-5 mr-2" /> 
+          +212 645-766901 
+        </a> 
+      </div> 
+    </div> 
+  </div> 
+</section>
+
       {/* Footer */}
 <footer className="bg-gray-900 text-gray-400 py-8">
       <div className="container mx-auto px-4 md:px-6">

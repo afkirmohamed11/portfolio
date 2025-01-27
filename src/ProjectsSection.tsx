@@ -98,7 +98,7 @@ const ProjectsSection = () => {
       id: 10,
       name: "Student Desktop Management Application",
       description:
-        "I developed a Python application, implementing the user interface with the Tkinter library and utilizing MySQL for data storage.",
+        "I developed with my team a Python application for student desktop management, featuring a user-friendly interface built with the Tkinter library. The application leverages MySQL for efficient data storage and management, providing much functionalities.",
       tools: ["Python", "Tkinter", "MySQL"],
       github_link: "https://github.com/afkirmohamed11/SchoolStudentManagementApp.git",
       image: img8,

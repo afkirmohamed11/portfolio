@@ -276,7 +276,7 @@ function App() {
     
     <div className="grid md:grid-cols-2 gap-8">
     <div className="bg-gray-900 shadow-lg p-6 rounded-lg">
-        <h3 className="text-xl font-bold mb-4">Big Data Tools</h3>
+        <h3 className="text-xl font-bold mb-4">Data & Big Data Tools</h3>
         <div className="flex flex-wrap gap-2">
           
         <span className="px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-sm">SQL</span>

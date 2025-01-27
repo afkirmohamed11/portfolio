@@ -136,24 +136,24 @@ function App() {
           I am a strong team player with excellent communication and leadership skills, fluent in <span className="font-bold text-blue-300">Arabic</span>, and proficient in both <span className="font-bold text-blue-300">French</span> and <span className="font-bold text-blue-300">English</span>, allowing me to collaborate effectively in diverse environments.
         </p>
 
-        <div className="mt-6 flex flex-wrap items-center gap-4">
-          <div className="flex space-x-4">
+        <div className="mt-6 flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-wrap gap-4">
             <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer"
-              className="flex items-center text-blue-400 hover:text-blue-300">
+              className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </a>
             <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer"
-              className="flex items-center text-blue-400 hover:text-blue-300">
+              className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </a>
             <a href="https://x.com/mohamed1910118?s=09" target="_blank" rel="noopener noreferrer"
-              className="flex items-center text-blue-400 hover:text-blue-300">
+              className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
               <Twitter className="w-5 h-5 mr-2" />
               Twitter
             </a>
-            <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300">
+            <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
               <Phone className="w-5 h-5 mr-2" />
               +212 645-766901
             </a>

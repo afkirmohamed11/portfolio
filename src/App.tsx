@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Database, GraduationCap, Briefcase, FolderGit2, Phone, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
+import { Database, GraduationCap, Briefcase, FolderGit2, Phone, MapPin, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
 import ProjectsSection from './ProjectsSection';
 import profile from './images/profile.png';
 import ibmLogo from './images/IBM.png';
@@ -148,15 +148,12 @@ function App() {
               <Linkedin className="w-5 h-5 mr-2" />
               LinkedIn
             </a>
-            <a href="https://x.com/mohamed1910118?s=09" target="_blank" rel="noopener noreferrer"
-              className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
-              <Twitter className="w-5 h-5 mr-2" />
-              Twitter
-            </a>
+            
             <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
               <Phone className="w-5 h-5 mr-2" />
               +212 645-766901
             </a>
+           
           </div>
 
           {/* Get Resume Button */}
@@ -473,42 +470,48 @@ function App() {
     </div>
   </div>
 </section>
-      {/* Contact Section */} 
-<section id="contact" className="py-16 bg-gray-800 px-6"> 
-  <div className="container mx-auto"> 
-    <div className="flex items-center mb-12"> 
-      <Mail className="w-8 h-8 text-blue-400 mr-4" /> 
-      <h2 className="text-3xl font-bold">Contact</h2> 
-    </div> 
-    <div className="bg-gray-900 shadow-lg p-8 rounded-lg"> 
-      <p className="text-gray-100 mb-6"> 
-        I'm always open to discussing new opportunities and interesting projects. 
-        Feel free to reach out! 
-      </p> 
-      <div className="flex flex-col space-y-4"> 
-        <a href="mailto:mohamedafkir078@gmail.com"  
-          className="flex items-center text-blue-400 hover:text-blue-300"> 
-          <Mail className="w-5 h-5 mr-2" /> 
-          mohamedafkir078@gmail.com 
+      {/* Contact Section */}
+<section id="contact" className="py-16 bg-gray-800 px-6">  
+  <div className="container mx-auto">  
+    <div className="flex items-center mb-12">  
+      <Mail className="w-8 h-8 text-blue-400 mr-4" />  
+      <h2 className="text-3xl font-bold text-white">Contact</h2>  
+    </div>  
+    <div className="bg-gray-900 shadow-lg p-8 rounded-lg">  
+      <p className="text-gray-100 mb-6">  
+        I'm always open to discussing new opportunities and interesting projects.  
+        Feel free to reach out!  
+      </p>  
+      <div className="flex flex-col space-y-4">  
+        <a href="mailto:mohamedafkir078@gmail.com"   
+          className="flex items-center text-blue-400 hover:text-blue-300">  
+          <Mail className="w-5 h-5 mr-2" />  
+          mohamedafkir078@gmail.com  
         </a> 
-        <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer" 
-          className="flex items-center text-blue-400 hover:text-blue-300"> 
-          <Linkedin className="w-5 h-5 mr-2" /> 
-          LinkedIn Profile 
-        </a> 
-        <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer" 
-          className="flex items-center text-blue-400 hover:text-blue-300"> 
-          <Github className="w-5 h-5 mr-2" /> 
-          GitHub Profile 
-        </a> 
-        <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300"> 
-          <Phone className="w-5 h-5 mr-2" /> 
-          +212 645-766901 
-        </a> 
-      </div> 
-    </div> 
-  </div> 
+        <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300">  
+          <Phone className="w-5 h-5 mr-2" />  
+          +212 645-766901  
+        </a>  
+        <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer"  
+          className="flex items-center text-blue-400 hover:text-blue-300">  
+          <Linkedin className="w-5 h-5 mr-2" />  
+          LinkedIn Profile  
+        </a>  
+        <a href="https://github.com/afkirmohamed11" target="_blank" rel="noopener noreferrer"  
+          className="flex items-center text-blue-400 hover:text-blue-300">  
+          <Github className="w-5 h-5 mr-2" />  
+          GitHub Profile  
+        </a>  
+         
+        <div className="flex items-center text-blue-400 hover:text-blue-300">  
+          <MapPin className="w-5 h-5 mr-2" />  
+          Al Hoceima, Morocco  
+        </div>  
+      </div>  
+    </div>  
+  </div>  
 </section>
+
 
       {/* Footer */}
 <footer className="bg-gray-900 text-gray-400 py-8">

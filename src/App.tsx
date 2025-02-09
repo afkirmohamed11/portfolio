@@ -149,10 +149,6 @@ function App() {
               LinkedIn
             </a>
             
-            <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300 whitespace-nowrap">
-              <Phone className="w-5 h-5 mr-2" />
-              +212 645-766901
-            </a>
            
           </div>
 
@@ -488,10 +484,6 @@ function App() {
           <Mail className="w-5 h-5 mr-2" />  
           mohamedafkir078@gmail.com  
         </a> 
-        <a href="tel:+212645766901" className="flex items-center text-blue-400 hover:text-blue-300">  
-          <Phone className="w-5 h-5 mr-2" />  
-          +212 645-766901  
-        </a>  
         <a href="https://www.linkedin.com/in/mohamed-afkir-1bbb9729a" target="_blank" rel="noopener noreferrer"  
           className="flex items-center text-blue-400 hover:text-blue-300">  
           <Linkedin className="w-5 h-5 mr-2" />  
@@ -503,10 +495,7 @@ function App() {
           GitHub Profile  
         </a>  
          
-        <div className="flex items-center text-blue-400 hover:text-blue-300">  
-          <MapPin className="w-5 h-5 mr-2" />  
-          Al Hoceima, Morocco  
-        </div>  
+        
       </div>  
     </div>  
   </div>  

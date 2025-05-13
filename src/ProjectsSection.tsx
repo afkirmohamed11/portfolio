@@ -110,7 +110,7 @@ const ProjectsSection = () => {
   const displayedProjects = showMore ? projects : projects.slice(0, 4);
 
   return (
-    <section id="projects" className="py-16 bg-gray-800 px-6">
+    <section id="projects" className="py-16 bg-gray-100 px-6">
       <div className="container mx-auto">
         <div className="flex items-center mb-12">
           <FolderGit2 className="w-8 h-8 text-blue-400 mr-4" />
@@ -118,7 +118,7 @@ const ProjectsSection = () => {
         </div>
         <div className="grid md:grid-cols-2 gap-4 md:gap-8">
           {displayedProjects.map((project) => (
-            <div key={project.id} className="bg-gray-900 shadow-lg p-4 md:p-6 rounded-lg">
+            <div key={project.id} className="bg-white shadow-lg p-4 md:p-6 rounded-lg">
               <span className="inline-block bg-blue-600 text-white text-xs md:text-sm px-3 py-1 rounded-full mb-2">
                 {project.domain}
               </span>
@@ -128,12 +128,12 @@ const ProjectsSection = () => {
                 className="w-full h-40 md:h-48 object-cover rounded-lg mb-4"
               />
               <h3 className="text-lg md:text-xl font-bold">{project.name}</h3>
-              <p className="text-gray-300 mt-2 text-sm md:text-base">{project.description}</p>
+              <p className="text-gray-700 mt-2 text-sm md:text-base">{project.description}</p>
               <div className="mt-3 md:mt-4 flex flex-wrap gap-1.5 md:gap-2">
                 {project.tools.map((tool, index) => (
                   <span
                     key={index}
-                    className="px-2 md:px-3 py-1 bg-blue-500/20 text-blue-400 rounded-full text-xs md:text-sm"
+                    className="px-2 md:px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-xs md:text-sm"
                   >
                     {tool}
                   </span>
@@ -143,7 +143,7 @@ const ProjectsSection = () => {
                 href={project.github_link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-3 md:mt-4 inline-flex items-center text-blue-400 hover:text-blue-300 text-sm md:text-base"
+                className="mt-3 md:mt-4 inline-flex items-center text-blue-600 hover:text-blue-700 text-sm md:text-base"
               >
                 View Project <ExternalLink className="w-3 h-3 md:w-4 md:h-4 ml-2" />
               </a>
@@ -154,7 +154,7 @@ const ProjectsSection = () => {
           <div className="mt-6 md:mt-8 text-center">
             <button
               onClick={() => setShowMore(!showMore)}
-              className="px-4 md:px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold rounded-lg hover:from-blue-400 hover:to-blue-600 text-sm md:text-base"
+              className="px-4 md:px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold rounded-lg hover:from-blue-400 hover:to-blue-500 text-sm md:text-base"
             >
               {showMore ? "Show Less" : "More Projects"}
             </button>

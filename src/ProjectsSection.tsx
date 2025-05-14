@@ -51,16 +51,16 @@ const ProjectsSection = () => {
       domain: "Data Analysis & BI",
     },
     // Data Science & AI
-    {
-      id: 2,
-      name: "Intelligent Word Spell Checker using NLP and N-gram Language Models",
-      description:
-        "I built an intelligent spell checker that leverages Natural Language Processing and n-gram language models to detect and correct spelling errors. The system combines advanced NLP techniques for text processing with statistical language patterns to understand word context. By analyzing both word similarity and contextual probability, it provides accurate spelling suggestions that maintain semantic coherence in sentences.",
-      tools: ["Python", "NLP", "Numpy", "NLTK", "N-gram Language Models"],
-      github_link: "https://github.com/afkirmohamed11/N-gram-Based-Smart-Spell-Corrector.git",
-      image: img2,
-      domain: "Natural Language Processing",
-    },
+    // {
+    //   id: 2,
+    //   name: "Intelligent Word Spell Checker using NLP and N-gram Language Models",
+    //   description:
+    //     "I built an intelligent spell checker that leverages Natural Language Processing and n-gram language models to detect and correct spelling errors. The system combines advanced NLP techniques for text processing with statistical language patterns to understand word context. By analyzing both word similarity and contextual probability, it provides accurate spelling suggestions that maintain semantic coherence in sentences.",
+    //   tools: ["Python", "NLP", "Numpy", "NLTK", "N-gram Language Models"],
+    //   github_link: "https://github.com/afkirmohamed11/N-gram-Based-Smart-Spell-Corrector.git",
+    //   image: img2,
+    //   domain: "Natural Language Processing",
+    // },
     // Data Engineering
     {
       id: 6,
@@ -84,26 +84,26 @@ const ProjectsSection = () => {
       domain: "Data Analysis & BI",
     },
     // Development
-    {
-      id: 9,
-      name: "Exam Management Application",
-      description:
-        "My classmate and I developed an exam management web application using Spring Boot, Spring Security, and Spring Data JPA with a JSP frontend and MySQL database. The application facilitated exam management, optimized administration and teacher management, and organized pedagogical elements. We implemented a three-layered architecture with distinct Presentation, Business Services, and Data Access layers, adhering to the MVC model.",
-      tools: ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "MySQL", "JSP"],
-      github_link: "https://github.com/afkirmohamed11/SpringBootExamManagamentApp.git",
-      image: img7,
-      domain: "Web Development",
-    },
-    {
-      id: 10,
-      name: "Student Desktop Management Application",
-      description:
-        "I developed with my team a Python application for student desktop management, featuring a user-friendly interface built with the Tkinter library. The application leverages MySQL for efficient data storage and management, providing much functionalities.",
-      tools: ["Python", "Tkinter", "MySQL"],
-      github_link: "https://github.com/afkirmohamed11/SchoolStudentManagementApp.git",
-      image: img8,
-      domain: "Desktop Applications",
-    }
+    // {
+    //   id: 9,
+    //   name: "Exam Management Application",
+    //   description:
+    //     "My classmate and I developed an exam management web application using Spring Boot, Spring Security, and Spring Data JPA with a JSP frontend and MySQL database. The application facilitated exam management, optimized administration and teacher management, and organized pedagogical elements. We implemented a three-layered architecture with distinct Presentation, Business Services, and Data Access layers, adhering to the MVC model.",
+    //   tools: ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "MySQL", "JSP"],
+    //   github_link: "https://github.com/afkirmohamed11/SpringBootExamManagamentApp.git",
+    //   image: img7,
+    //   domain: "Web Development",
+    // },
+    // {
+    //   id: 10,
+    //   name: "Student Desktop Management Application",
+    //   description:
+    //     "I developed with my team a Python application for student desktop management, featuring a user-friendly interface built with the Tkinter library. The application leverages MySQL for efficient data storage and management, providing much functionalities.",
+    //   tools: ["Python", "Tkinter", "MySQL"],
+    //   github_link: "https://github.com/afkirmohamed11/SchoolStudentManagementApp.git",
+    //   image: img8,
+    //   domain: "Desktop Applications",
+    // }
   ];
   
 

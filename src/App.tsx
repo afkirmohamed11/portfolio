@@ -1,12 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Database, GraduationCap, Briefcase, FolderGit2, Phone, MapPin, Award, Mail, Github, Linkedin, ExternalLink, User, Twitter } from 'lucide-react';
+import { Award, Briefcase, Database, Github, GraduationCap, Linkedin, Mail, Twitter, User } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 import ProjectsSection from './ProjectsSection';
-import profile from './images/profile.png';
-import ibmLogo from './images/IBM.png';
-import googleLogo from './images/Google.png';
-import dataCampLogo from './images/DataCamp.png';
 import dataScience365Logo from './images/365DataScience.png';
+import dataCampLogo from './images/DataCamp.png';
+import googleLogo from './images/Google.png';
+import ibmLogo from './images/IBM.png';
 import talendLogo from './images/Talend.png';
+import profile from './images/profile.png';
 
 
 function App() {
@@ -52,7 +52,7 @@ function App() {
           <div className="flex justify-between items-center h-16 mt-8">
             <div className="flex items-center">
               <span className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-                AFKIR Mohamed
+                Mohamed Afkir
               </span>
             </div>
             
@@ -193,7 +193,7 @@ function App() {
               <p className="font-bold text-gray-700 text-xl">
                 National School of Applied Sciences of Al Hoceima
               </p>
-              <p className="text-gray-700 text-xl">2022 - Present</p>
+              <p className="text-gray-700 text-xl">2022 - 2025</p>
             </div>
 
             {/* Entry 2 */}
@@ -224,6 +224,28 @@ function App() {
             <h2 className="text-3xl font-bold text-gray-900">Experience</h2>
           </div>
           <div className="grid gap-8">
+            <div className="bg-white shadow-lg p-6 rounded-lg">
+              <div>
+                <h3 className="text-xl font-bold text-blue-600 text-2xl">Data & AI Engineer Intern</h3>
+                <p className="font-bold text-gray-700 text-xl">Wasit</p>
+                <p className="text-gray-700 text-xl">February 2025 - August 2025</p>
+              </div>
+              <ul className="list-disc list-inside mt-4 text-gray-700">
+                <li>Contributed to the development of a serverless multi-agent system supporting Moroccan farmers through WhatsApp.</li>
+                <li>Built and deployed Azure Functions to orchestrate components in a scalable, event-driven architecture.</li>
+                <li>Integrated a Retrieval-Augmented Generation (RAG) pipeline to deliver context-aware responses tailored to farmers' needs.</li>
+                <li>Designed and managed PostgreSQL with pgvector to enable semantic search and structured tracking of farming projects.</li>
+              </ul>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Python</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">LangChain</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">RAG</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">PostgreSQL</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Blob Storage</span>
+              </div>
+            </div>
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <div>
                 <h3 className="text-xl font-bold text-blue-600 text-2xl">Data Engineering & Science Intern</h3>

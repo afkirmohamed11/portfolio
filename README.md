@@ -1,1 +1,1 @@
-AFKIR Mohamed Portfolio
+Mohamed Afkir Portfolio

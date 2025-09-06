@@ -245,6 +245,7 @@ function App() {
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Python</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure OpenAI</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">LangChain</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">RAG</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">PostgreSQL</span>

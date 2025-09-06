@@ -125,15 +125,17 @@ function App() {
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover mb-6 md:mb-0"
             />
             <div className="flex flex-col justify-between">
-              <p className="text-gray-700 text-xl leading-relaxed">
-                I'm <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">
-                  Afkir Mohamed
-                </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> who transforms complex data challenges into actionable insights. With expertise in data pipelines, ETL processes, and database management, I bring a comprehensive skill set in Machine Learning, Data Science, and Advanced Analytics. My experience spans from developing predictive models to implementing scalable data solutions. I leverage my analytical capabilities to extract meaningful patterns from data, applying statistical analysis and ML algorithms to drive data-informed decisions. I'm constantly expanding my technical toolkit and seeking opportunities where I can apply my combined expertise in data engineering and advanced analytics to create innovative solutions.
-              </p>
+<p className="text-gray-700 text-xl leading-relaxed">  
+  I'm <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">  
+    Afkir Mohamed  
+  </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> passionate about turning complex data into actionable insights. Currently pursuing a <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Master 2 in Data Science</span> at Claude Bernard Lyon 1 University, I specialize in data pipelines, ETL, database management, and machine learning. My experience ranges from building predictive models to deploying scalable data solutions, always aiming to drive innovation through data.  
+</p>  
 
-              <p className="text-gray-700 text-xl leading-relaxed">
-                I am a strong team player with excellent communication and leadership skills, fluent in <span className="font-bold text-blue-300">Arabic</span>, and proficient in both <span className="font-bold text-blue-300">French</span> and <span className="font-bold text-blue-300">English</span>, allowing me to collaborate effectively in diverse environments.
-              </p>
+<p className="text-gray-700 text-xl leading-relaxed mt-4">  
+  Proficient in <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">English</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">French</span>, and fluent in <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Arabic</span>, I thrive in multicultural environments and excel in teamwork, communication, and leadership.  
+</p>  
+
+
 
               <div className="mt-6 flex flex-col sm:flex-row gap-4">
                 <div className="flex flex-wrap gap-4">
@@ -189,6 +191,15 @@ function App() {
           <div className="grid gap-8">
             {/* Entry 1 */}
             <div className="bg-white shadow-lg p-6 rounded-lg">
+              <h3 className="text-xl font-bold text-blue-600 text-2xl">Master 2 in Data Science</h3>
+              <p className="font-bold text-gray-700 text-xl">
+                Claude Bernard Lyon 1 University
+              </p>
+              <p className="text-gray-700 text-xl">2025 - 2026</p>
+            </div>
+
+            {/* Entry 2 */}
+            <div className="bg-white shadow-lg p-6 rounded-lg">
               <h3 className="text-xl font-bold text-blue-600 text-2xl">Data Engineering Diploma</h3>
               <p className="font-bold text-gray-700 text-xl">
                 National School of Applied Sciences of Al Hoceima
@@ -196,7 +207,7 @@ function App() {
               <p className="text-gray-700 text-xl">2022 - 2025</p>
             </div>
 
-            {/* Entry 2 */}
+            {/* Entry 3 */}
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <h3 className="text-xl font-bold text-blue-600 text-2xl">Preparatory Cycle</h3>
               <p className="font-bold text-gray-700 text-xl">
@@ -205,13 +216,7 @@ function App() {
               <p className="text-gray-700 text-xl">2020 - 2022</p>
             </div>
             {/* Entry 3 */}
-            <div className="bg-white shadow-lg p-6 rounded-lg">
-              <h3 className="text-xl font-bold text-blue-600 text-2xl">High School Diploma</h3>
-              <p className="font-bold text-gray-700 text-xl">
-                Imzouren High School
-              </p>
-              <p className="text-gray-700 text-xl">2019 - 2020</p>
-            </div>
+            
           </div>
         </div>
       </section>
@@ -348,8 +353,9 @@ function App() {
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Terraform</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Linux</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Git</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GitLab</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GitHub</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GitLab</span>
+
               </div>
             </div>
           </div>

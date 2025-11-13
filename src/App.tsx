@@ -565,7 +565,7 @@ function App() {
             <Linkedin className="w-6 h-6" />
           </a>
           <a 
-            href="https://x.com/mohamed1910118?s=09" 
+            href="https://x.com/mohamed82862711?t=95bjAx0gXzw7psi8INzAqA&s=09" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-blue-600 transition-colors duration-300"

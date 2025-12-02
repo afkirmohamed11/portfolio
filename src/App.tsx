@@ -2,10 +2,11 @@ import { Award, Briefcase, Database, Github, GraduationCap, Linkedin, Mail, Twit
 import { useEffect, useRef, useState } from 'react';
 import ProjectsSection from './ProjectsSection';
 import dataScience365Logo from './images/365DataScience.png';
-import dataCampLogo from './images/DataCamp.png';
+// import dataCampLogo from './images/DataCamp.png';
 import googleLogo from './images/Google.png';
 import ibmLogo from './images/IBM.png';
-import talendLogo from './images/Talend.png';
+// import talendLogo from './images/Talend.png';
+import awsLogo from './images/AWS.png';
 import profile from './images/profile.png';
 
 
@@ -125,14 +126,8 @@ function App() {
               className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover mb-6 md:mb-0"
             />
             <div className="flex flex-col justify-between">
-<p className="text-gray-700 text-xl leading-relaxed">  
-  I'm <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">  
-    Afkir Mohamed  
-  </span>, a versatile <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Scientist</span> passionate about turning complex data into actionable insights. Currently pursuing a <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Master 2 in Data Science</span> at Claude Bernard Lyon 1 University, I specialize in data pipelines, ETL, database management, and machine learning. My experience ranges from building predictive models to deploying scalable data solutions, always aiming to drive innovation through data.  
-</p>  
-
-<p className="text-gray-700 text-xl leading-relaxed mt-4">  
-  Proficient in <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">English</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">French</span>, and fluent in <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Arabic</span>, I thrive in multicultural environments and excel in teamwork, communication, and leadership.  
+<p className="text-gray-700 text-xl leading-relaxed">
+I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As an AWS Certified Cloud Practitioner, I specialize in building robust and scalable data infrastructure for ETL and analysis. I am proficient in using AWS services (like S3, Glue, and Redshift) to manage data in the cloud, as well as working with Azure environments (as shown in my internship experience). My focus is on turning complex data into reliable, actionable insights through solid engineering and machine learning principles. I am eager to secure an end-of-studies internship where I can apply my skills in a professional, collaborative setting.
 </p>  
 
 
@@ -391,6 +386,24 @@ function App() {
             <h2 className="text-3xl font-bold text-gray-900">Certifications</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* AWS Certified Cloud Practitioner */}
+            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+              <img
+                src={awsLogo}
+                alt="AWS"
+                className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
+              />
+              <div>
+                <h3 className="text-xl font-bold mb-2 text-gray-900">AWS Certified Cloud Practitioner</h3>
+                <p className="text-gray-700">Amazon Web Services</p>
+                <a href="https://www.credly.com/badges/de5100d5-958e-49ca-982a-9d4f4ac4c24a/public_url" 
+                   className="text-blue-600 hover:text-blue-500 transition-colors duration-300"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                  View Certificate
+                </a>
+              </div>
+            </div>
             {/* IBM Data Engineering Certificate */}
             <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
@@ -430,7 +443,7 @@ function App() {
             </div>
 
             {/* AWS Cloud Concepts */}
-            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
                 src={dataCampLogo}
                 alt="DataCamp"
@@ -446,10 +459,10 @@ function App() {
                   View Certificate
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* NoSQL, Big Data, and Spark Foundations */}
-            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
                 src={ibmLogo}
                 alt="IBM"
@@ -465,7 +478,7 @@ function App() {
                   View Certificate
                 </a>
               </div>
-            </div>
+            </div> */}
 
             {/* Advanced SQL for Data Engineering */}
             <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
@@ -487,7 +500,7 @@ function App() {
             </div>
 
             {/* Talend Data Integration */}
-            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
                 src={talendLogo}
                 alt="Talend"
@@ -503,7 +516,7 @@ function App() {
                   View Certificate
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

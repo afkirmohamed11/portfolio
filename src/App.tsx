@@ -3,10 +3,10 @@ import { useEffect, useRef, useState } from 'react';
 import ProjectsSection from './ProjectsSection';
 import dataScience365Logo from './images/365DataScience.png';
 // import dataCampLogo from './images/DataCamp.png';
+import awsLogo from './images/AWS.png';
 import googleLogo from './images/Google.png';
 import ibmLogo from './images/IBM.png';
-// import talendLogo from './images/Talend.png';
-import awsLogo from './images/AWS.png';
+import talendLogo from './images/Talend.png';
 import profile from './images/profile.png';
 
 
@@ -149,7 +149,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
                 </div>
 
                 {/* Get Resume Button */}
-                <a
+                {/* <a
                   href="https://drive.google.com/file/d/1acxIEWmcIJX3yTmOJjX11Zp5xxq5hXtu/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -169,7 +169,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
                     />
                   </svg>
                   Get Resume
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
@@ -442,27 +442,9 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
               </div>
             </div>
 
-            {/* AWS Cloud Concepts */}
-            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
-              <img
-                src={dataCampLogo}
-                alt="DataCamp"
-                className="w-24 h-24 object-contain mr-6 bg-gray-800 p-2 rounded-lg flex-shrink-0"
-              />
-              <div>
-                <h3 className="text-xl font-bold mb-2 text-gray-900">AWS Cloud Concepts</h3>
-                <p className="text-gray-700">DataCamp</p>
-                <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/0bcbeb425800c1bc382a51fba1a2ff216772b2a3" 
-                   className="text-blue-600 hover:text-blue-500 transition-colors duration-300"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                  View Certificate
-                </a>
-              </div>
-            </div> */}
 
             {/* NoSQL, Big Data, and Spark Foundations */}
-            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
                 src={ibmLogo}
                 alt="IBM"
@@ -478,7 +460,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
                   View Certificate
                 </a>
               </div>
-            </div> */}
+            </div>
 
             {/* Advanced SQL for Data Engineering */}
             <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
@@ -500,7 +482,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
             </div>
 
             {/* Talend Data Integration */}
-            {/* <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
+            <div className="bg-white shadow-lg p-6 rounded-lg flex items-center">
               <img
                 src={talendLogo}
                 alt="Talend"
@@ -516,7 +498,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
                   View Certificate
                 </a>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

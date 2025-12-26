@@ -297,26 +297,35 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Kafka</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Spark</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Airflow</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">DBT</span>
+
 
 
               </div>
             </div>
 
             <div className="bg-white shadow-lg p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-4 text-gray-900">Cloud Platforms (AWS, Azure)</h3>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS IAM</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS EC2</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS S3</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Glue</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Redshift</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Lambda</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Athena</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS RDS</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Blob Storage</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure OpenAI</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure PostgreSQL</span>
+              <h3 className="text-xl font-bold mb-4 text-gray-900">Cloud Platforms (AWS, Azure, GCP)</h3>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS IAM</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS EC2</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS S3</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Glue</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Redshift</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Lambda</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Athena</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS RDS</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Blob Storage</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure OpenAI</span>
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure PostgreSQL</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GCP BigQuery</span>
+                </div>
               </div>
             </div>
           <div className="bg-white shadow-lg p-6 rounded-lg">

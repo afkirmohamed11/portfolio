@@ -127,7 +127,7 @@ function App() {
             />
             <div className="flex flex-col justify-between">
 <p className="text-gray-700 text-xl leading-relaxed">
-I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Data Engineer</span> and <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Master 2 Data Science</span> student @UCBL. As an <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">AWS Certified Cloud Practitioner</span>, I specialize in building robust and scalable data infrastructure for ETL and analysis. I am proficient in using AWS services (like S3, Glue, and Redshift) to manage data in the cloud, as well as working with <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-600">Azure</span> environments (as shown in my internship experience). My focus is on turning complex data into reliable, actionable insights through solid engineering and machine learning principles. I am eager to secure an end-of-studies internship where I can apply my skills in a professional, collaborative setting.
+I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As an AWS Certified Cloud Practitioner, I specialize in building robust and scalable data infrastructure for ETL and analysis. I am proficient in using cloud platforms across multiple providers: AWS services (S3, Glue, Redshift, Lambda), GCP services (BigQuery, Dataflow, Pub/Sub, Cloud Storage, Compute Engine, Dataproc, Cloud Functions), and Azure environments for modern data stack development. My focus is on turning complex data into reliable, actionable insights through solid engineering and machine learning principles. I am currently completing my final-year internship and seeking a first full-time position starting in September to apply and further develop my multi-cloud expertise in a professional, collaborative setting.
 </p>  
 
 
@@ -150,7 +150,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
 
                 {/* Get Resume Button */}
                 {/* <a
-                  href="https://drive.google.com/file/d/1acxIEWmcIJX3yTmOJjX11Zp5xxq5hXtu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1TMixcwFPstDj_6hglim6Pml-KtY0JAJo/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 text-white rounded-full shadow-lg hover:bg-gradient-to-l transition-colors duration-200 group ml-auto"
@@ -226,6 +226,29 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
           <div className="grid gap-8">
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <div>
+                <h3 className="text-xl font-bold text-blue-600 text-2xl">Data Analytics Intern</h3>
+                <p className="font-bold text-gray-700 text-xl">DATA HANALYTICS</p>
+                <p className="text-gray-700 text-xl">Paris, France • February 2026 - Present</p>
+              </div>
+              <ul className="list-disc list-inside mt-4 text-gray-700">
+                <li>Working closely with clients to translate business needs into data solutions that improve their performance and decision making</li>
+                <li>Designing and maintaining ETL/modern data stack processes to centralize, model, and transform multi source data</li>
+                <li>Building interactive dashboards and visualizations to deliver actionable insights and key performance metrics.</li>
+              </ul>
+              <div className="mt-4 flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">SQL</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Python</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">dbt</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GCP</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">BigQuery</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Looker Studio</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Kestra</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Git</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Github</span>
+              </div>
+            </div>
+            <div className="bg-white shadow-lg p-6 rounded-lg">
+              <div>
                 <h3 className="text-xl font-bold text-blue-600 text-2xl">Data & AI Engineer Intern</h3>
                 <p className="font-bold text-gray-700 text-xl">Wasit</p>
                 <p className="text-gray-700 text-xl">February 2025 - August 2025</p>
@@ -250,7 +273,7 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <div>
                 <h3 className="text-xl font-bold text-blue-600 text-2xl">Data Engineering & Science Intern</h3>
-                <p className="font-bold text-gray-700 text-xl">Shiftbricks Start-up</p>
+                <p className="font-bold text-gray-700 text-xl">Shiftbricks</p>
                 <p className="text-gray-700 text-xl">June 2024 - September 2024</p>
               </div>
               <ul className="list-disc list-inside mt-4 text-gray-700">
@@ -291,13 +314,13 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
               <div className="flex flex-wrap gap-2">
                 
               <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">SQL</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">DBT</span>
               <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">PL-SQL</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">NoSQL</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Hadoop</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Kafka</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Spark</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Airflow</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">DBT</span>
 
 
 
@@ -305,27 +328,41 @@ I'm Mohamed Afkir, a <span className="font-bold text-transparent bg-clip-text bg
             </div>
 
             <div className="bg-white shadow-lg p-6 rounded-lg">
-              <h3 className="text-xl font-bold mb-4 text-gray-900">Cloud Platforms (AWS, Azure, GCP)</h3>
-              <div className="flex flex-col gap-4">
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS IAM</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS EC2</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS S3</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Glue</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Redshift</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Lambda</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Athena</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS RDS</span>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Blob Storage</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure OpenAI</span>
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure PostgreSQL</span>
-                </div>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GCP BigQuery</span>
-                </div>
+              <h3 className="text-xl font-bold mb-4 text-gray-900">AWS</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS IAM</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS EC2</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS S3</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Glue</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Redshift</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Lambda</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS Athena</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">AWS RDS</span>
+              </div>
+            </div>
+
+            <div className="bg-white shadow-lg p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">Azure</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Functions</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure Blob Storage</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure OpenAI</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Azure PostgreSQL</span>
+              </div>
+            </div>
+
+            <div className="bg-white shadow-lg p-6 rounded-lg">
+              <h3 className="text-xl font-bold mb-4 text-gray-900">Google Cloud (GCP)</h3>
+              <div className="flex flex-wrap gap-2">
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GCP BigQuery</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Looker Studio</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Dataflow</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Pub/Sub</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Compute Engine</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Cloud Storage</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Dataproc</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Cloud Functions</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Kestra</span>
               </div>
             </div>
           <div className="bg-white shadow-lg p-6 rounded-lg">

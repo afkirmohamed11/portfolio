@@ -227,7 +227,7 @@ I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As a
             <div className="bg-white shadow-lg p-6 rounded-lg">
               <div>
                 <h3 className="text-xl font-bold text-blue-600 text-2xl">Data Analytics Intern</h3>
-                <p className="font-bold text-gray-700 text-xl">DATA HANALYTICS</p>
+                <p className="font-bold text-gray-700 text-xl">HANALYTICS</p>
                 <p className="text-gray-700 text-xl">Paris, France • February 2026 - Present</p>
               </div>
               <ul className="list-disc list-inside mt-4 text-gray-700">
@@ -238,7 +238,7 @@ I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As a
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">SQL</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Python</span>
-                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">dbt</span>
+                <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">DBT</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">GCP</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">BigQuery</span>
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">Looker Studio</span>

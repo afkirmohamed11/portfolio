@@ -231,9 +231,19 @@ I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As a
                 <p className="text-gray-700 text-xl">Paris, France • February 2026 - Present</p>
               </div>
               <ul className="list-disc list-inside mt-4 text-gray-700">
-                <li>Working closely with clients to translate business needs into data solutions that improve their performance and decision making</li>
-                <li>Designing and maintaining ETL/modern data stack processes to centralize, model, and transform multi source data</li>
-                <li>Building interactive dashboards and visualizations to deliver actionable insights and key performance metrics.</li>
+                <li>Collaborate closely with client teams to translate business needs into concrete data solutions, from data collection to decision-ready reporting</li>
+                <li>Build and maintain ELT pipelines (Airbyte → BigQuery → dbt) following Medallion architecture (raw → bronze → silver → gold), orchestrated via Kestra, to centralize and model multi-source data</li>
+                <li>Develop Looker Studio dashboards to track key business indicators (revenue, commercial performance), enabling client teams to monitor their activity in real time</li>
+                <li>Optimize queries and data models on GCP/BigQuery (partitioning, clustering), reducing processing costs and improving query speed</li>
+                <li>Develop Looker Studio dashboards to track key business indicators (revenue, commercial performance), enabling client teams to monitor their activity in real time</li>
+                <li>Set up automated alerting on Slack/Teams (dbt tests, quality checks) to quickly detect anomalies and pipeline/test failures</li>
+                <li>Manage task prioritization and client coordination via Jira, ensuring deadlines and deliverable quality are met</li>                   <li>Manage task prioritization and client coordination via Jira, ensuring deadlines and deliverable quality are met</li>
+                <li>Contributing to a 20% increase in tracked revenue through more reliable, actionable Looker Studio dashboards</li>
+                <li>Reducing query costs and improving processing speed on BigQuery through partitioning/clustering optimization</li>
+                <li>Proactively detecting anomalies and pipeline failures via automated Slack/Teams alerts, reducing downstream reporting errors</li>
+                <li>Centralizing and modeling data for 3 retail/e-commerce clients on a unified Modern Data Stack (GCP, dbt, Airbyte, Kestra)</li>
+
+
               </ul>
               <div className="mt-4 flex flex-wrap gap-2">
                 <span className="px-3 py-1 bg-blue-50 text-blue-600 rounded-full text-sm">SQL</span>

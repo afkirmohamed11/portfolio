@@ -235,7 +235,6 @@ I'm Mohamed Afkir, a Data Engineer and Master 2 Data Science student @UCBL. As a
                 <li>Build and maintain ELT pipelines (Airbyte → BigQuery → dbt) following Medallion architecture (raw → bronze → silver → gold), orchestrated via Kestra, to centralize and model multi-source data</li>
                 <li>Develop Looker Studio dashboards to track key business indicators (revenue, commercial performance), enabling client teams to monitor their activity in real time</li>
                 <li>Optimize queries and data models on GCP/BigQuery (partitioning, clustering), reducing processing costs and improving query speed</li>
-                <li>Develop Looker Studio dashboards to track key business indicators (revenue, commercial performance), enabling client teams to monitor their activity in real time</li>
                 <li>Set up automated alerting on Slack/Teams (dbt tests, quality checks) to quickly detect anomalies and pipeline/test failures</li>
                 <li>Manage task prioritization and client coordination via Jira, ensuring deadlines and deliverable quality are met</li>                   <li>Manage task prioritization and client coordination via Jira, ensuring deadlines and deliverable quality are met</li>
                 <li>Contributing to a 20% increase in tracked revenue through more reliable, actionable Looker Studio dashboards</li>

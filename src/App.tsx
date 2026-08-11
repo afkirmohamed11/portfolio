@@ -337,7 +337,7 @@ function App() {
                       <MapPin className="w-3.5 h-3.5 text-cyan-400" /> Paris, France
                     </span>
                     <span className="flex items-center gap-1 bg-slate-800/80 px-3 py-1 rounded-md border border-slate-700">
-                      <Calendar className="w-3.5 h-3.5 text-cyan-400" /> Feb 2026 – Present
+                      <Calendar className="w-3.5 h-3.5 text-cyan-400" /> Feb 2026 – Aug 2026
                     </span>
                   </div>
                 </div>
@@ -370,7 +370,7 @@ function App() {
                 </ul>
 
                 <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-800">
-                  {['SQL', 'Python', 'dbt', 'GCP', 'BigQuery', 'Looker Studio', 'Gemini Enterprise', 'AI Agents', 'Kestra', 'Airbyte', 'Git', 'Jira'].map((tech) => (
+                  {['DBT', 'BigQuery', 'SQL', 'GCP', 'Python','Looker Studio', 'Gemini Enterprise', 'AI Agents', 'Kestra', 'Airbyte', 'Git', 'Jira'].map((tech) => (
                     <span key={tech} className="px-3 py-1 bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 rounded-full text-xs font-mono">
                       {tech}
                     </span>

@@ -357,15 +357,15 @@ function App() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Build data products and AI agents for business teams to analyze their data leveraging <strong className="text-slate-100">Data Studio Agents</strong> and <strong className="text-slate-100">Gemini Enterprise</strong>.</span>
+                    <span>Build data products and AI agents for business teams, deploying a conversational agent in <strong className="text-slate-100">Gemini Enterprise</strong> that lets teams query <strong className="text-cyan-400 font-semibold">25+ BigQuery tables across 3 business domains</strong> in natural language.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Optimize queries and data models on <strong className="text-slate-100">GCP/BigQuery</strong> using partitioning and clustering strategies, reducing processing costs and improving query speed.</span>
+                    <span>Optimize queries and data models on <strong className="text-slate-100">GCP/BigQuery</strong> using partitioning and clustering strategies, cutting processing costs by <strong className="text-cyan-400 font-semibold">30%</strong> and processing times by <strong className="text-cyan-400 font-semibold">60%</strong>.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Set up automated alerting on Slack/Teams (dbt tests, data quality checks) to proactively detect anomalies and pipeline/test failures.</span>
+                    <span>Set up automated alerting on Slack/Teams to monitor <strong className="text-cyan-400 font-semibold">100+ dbt tests</strong> and data quality checks, proactively detecting anomalies and pipeline failures.</span>
                   </li>
                 </ul>
 
@@ -403,19 +403,19 @@ function App() {
                 <ul className="space-y-3 text-slate-300 text-base leading-relaxed mb-6">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
-                    <span>Contributed to the development of a serverless multi-agent AI system supporting farmers through WhatsApp.</span>
+                    <span>Contributed to the development of a serverless multi-agent AI system supporting farmers through WhatsApp, achieving an average <strong className="text-cyan-400 font-semibold">4-second response time</strong> per query.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
-                    <span>Built and deployed <strong className="text-slate-100">Azure Functions</strong> to orchestrate components in a scalable, event-driven cloud architecture.</span>
+                    <span>Built and deployed <strong className="text-cyan-400 font-semibold">3 Azure Functions</strong> to orchestrate components in a scalable, event-driven cloud architecture.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
-                    <span>Integrated a <strong className="text-slate-100">Retrieval-Augmented Generation (RAG)</strong> pipeline to deliver context-aware responses tailored to agricultural queries.</span>
+                    <span>Integrated a <strong className="text-slate-100">Retrieval-Augmented Generation (RAG)</strong> pipeline drawing on <strong className="text-cyan-400 font-semibold">10+ sources and documents</strong> to deliver context-aware, personalized responses.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
-                    <span>Designed and managed <strong className="text-slate-100">PostgreSQL with pgvector</strong> to enable vector search and structured project tracking.</span>
+                    <span>Designed and managed a <strong className="text-slate-100">PostgreSQL</strong> database to enable semantic search and structured tracking of <strong className="text-cyan-400 font-semibold">3+ agricultural projects</strong>.</span>
                   </li>
                 </ul>
 
@@ -453,11 +453,11 @@ function App() {
                 <ul className="space-y-3 text-slate-300 text-base leading-relaxed mb-6">
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />
-                    <span>Developed an automated data processing pipeline following Medallion architecture (bronze, silver, gold layers) for Arabic legal documents.</span>
+                    <span>Developed an automated data processing pipeline following Medallion architecture (bronze, silver, gold layers) to process <strong className="text-cyan-400 font-semibold">80+ Arabic legal documents</strong>.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />
-                    <span>Extracted metadata using OCR and LLM models, converting content into structured JSON schemas stored in <strong className="text-slate-100">MongoDB</strong>.</span>
+                    <span>Extracted <strong className="text-cyan-400 font-semibold">15+ fields/metadata per document</strong> using OCR (<strong className="text-slate-100">Tesseract, EasyOCR</strong>) and LLM models (<strong className="text-slate-100">Cohere</strong>), converting content into structured JSON schemas stored in <strong className="text-slate-100">MongoDB</strong>.</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle2 className="w-5 h-5 text-indigo-400 flex-shrink-0 mt-0.5" />

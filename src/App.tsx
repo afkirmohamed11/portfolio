@@ -200,7 +200,7 @@ function App() {
 
               {/* Bio Summary */}
               <p className="text-slate-300 text-base sm:text-lg leading-relaxed mb-8 max-w-2xl">
-                Master 2 Data Science candidate @UCBL and AWS Certified Cloud Practitioner. Specializing in building scalable, production-grade ELT/ETL pipelines (Airflow, dbt, Kestra, Kafka) across <strong className="text-slate-100 font-semibold">AWS, GCP, and Azure</strong> environments, Medallion data architectures, and AI integrations (RAG, LLMs, AI Agents).
+                Data Analytics Engineer and AI Engineer. Specializing in building scalable, production-grade ELT/ETL pipelines across <strong className="text-slate-100 font-semibold">AWS, GCP, and Azure</strong> environments, Medallion data architectures, and AI integrations (RAG, LLMs, AI Agents).
               </p>
 
               {/* CTA Buttons */}

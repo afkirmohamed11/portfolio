@@ -325,56 +325,154 @@ function App() {
               </div>
 
               <div className="glass-card p-6 sm:p-8 rounded-2xl">
-                <div className="flex flex-col md:flex-row md:items-center justify-between mb-4 gap-2">
+                <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-2">
                   <div>
                     <h3 className="text-2xl font-bold text-slate-100 group-hover:text-cyan-400 transition-colors">
-                      Data Analytics Intern
+                      Data Analytics Engineer
                     </h3>
-                    <p className="text-lg font-semibold text-cyan-400">HANALYTICS</p>
+                    <p className="text-lg font-semibold text-cyan-400">YURI & NEIL</p>
                   </div>
                   <div className="flex flex-wrap items-center gap-3 text-slate-400 text-sm font-mono">
                     <span className="flex items-center gap-1 bg-slate-800/80 px-3 py-1 rounded-md border border-slate-700">
                       <MapPin className="w-3.5 h-3.5 text-cyan-400" /> Paris, France
                     </span>
                     <span className="flex items-center gap-1 bg-slate-800/80 px-3 py-1 rounded-md border border-slate-700">
-                      <Calendar className="w-3.5 h-3.5 text-cyan-400" /> Feb 2026 – Aug 2026
+                      <Calendar className="w-3.5 h-3.5 text-cyan-400" /> Févr. – Août 2026
                     </span>
                   </div>
                 </div>
 
-                <ul className="space-y-3 text-slate-300 text-base leading-relaxed mb-6">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Collaborate closely with client teams to translate business needs into concrete data solutions, from data collection to decision-ready reporting.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Build and maintain ELT pipelines (<strong className="text-slate-100">Airbyte → BigQuery → dbt</strong>) following Medallion architecture (raw → bronze → silver → gold), orchestrated via <strong className="text-slate-100">Kestra</strong>.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Develop <strong className="text-slate-100">Looker Studio dashboards</strong> to track key business indicators (revenue, commercial performance), contributing to a <strong className="text-cyan-400 font-semibold">20% increase in tracked revenue</strong>.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Build data products and AI agents for business teams, deploying a conversational agent in <strong className="text-slate-100">Gemini Enterprise</strong> that lets teams query <strong className="text-cyan-400 font-semibold">25+ BigQuery tables across 3 business domains</strong> in natural language.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Optimize queries and data models on <strong className="text-slate-100">GCP/BigQuery</strong> using partitioning and clustering strategies, cutting processing costs by <strong className="text-cyan-400 font-semibold">30%</strong> and processing times by <strong className="text-cyan-400 font-semibold">60%</strong>.</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
-                    <span>Set up automated alerting on Slack/Teams to monitor <strong className="text-cyan-400 font-semibold">100+ dbt tests</strong> and data quality checks, proactively detecting anomalies and pipeline failures.</span>
-                  </li>
-                </ul>
+                <div className="space-y-6 mb-6">
+                  {/* Mission 1: IKKS */}
+                  <div className="bg-slate-900/50 border border-slate-800/90 rounded-xl p-5 sm:p-6 transition-all hover:border-cyan-500/30">
+                    <div className="flex flex-wrap items-center justify-between pb-3 mb-4 border-b border-slate-800 gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <span className="px-2.5 py-0.5 rounded text-xs font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                          Mission
+                        </span>
+                        <h4 className="text-lg font-bold text-slate-100 tracking-wide">
+                          IKKS
+                        </h4>
+                      </div>
+                      <span className="text-xs font-mono text-cyan-400 bg-slate-800/90 px-3 py-1 rounded-full border border-slate-700">
+                        3 mois
+                      </span>
+                    </div>
 
-                <div className="flex flex-wrap gap-2 pt-2 border-t border-slate-800">
-                  {['DBT', 'BigQuery', 'SQL', 'GCP', 'Python','Looker Studio', 'Gemini Enterprise', 'AI Agents', 'Kestra', 'Airbyte', 'Git', 'Jira'].map((tech) => (
-                    <span key={tech} className="px-3 py-1 bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 rounded-full text-xs font-mono">
-                      {tech}
-                    </span>
-                  ))}
+                    <ul className="space-y-3 text-slate-300 text-sm sm:text-base leading-relaxed">
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Conception et industrialisation de pipelines ETL ventes/e-commerce sous <strong className="text-slate-100">dbt</strong> (<strong className="text-slate-100">architecture Medallion</strong>), orchestrés avec <strong className="text-slate-100">Kestra</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Conception et développement d'un pipeline d'analyse des avis clients <strong className="text-slate-100">Google Maps</strong> sur <strong className="text-cyan-400 font-semibold">+800 magasins</strong>, restitué dans un dashboard interactif <strong className="text-slate-100">Looker Studio</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Développement d’un modèle de segmentation <strong className="text-slate-100">K-means</strong> sur <strong className="text-slate-100">BigQuery ML</strong>, classant les magasins IKKS en <strong className="text-cyan-400 font-semibold">4 clusters</strong> (Premium, Urban, Core, Outlet) pour structurer l’analyse du réseau et suivre la performance des magasins
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Création de dashboards <strong className="text-slate-100">Looker Studio</strong> avancés (ventes, CRM, stock) pour le suivi des KPIs, contribuant à une hausse de <strong className="text-cyan-400 font-semibold">20% du chiffre d'affaires</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Conception et développement d'un agent conversationnel dans <strong className="text-slate-100">Gemini Enterprise</strong> offrant aux équipes métier un accès en langage naturel à <strong className="text-cyan-400 font-semibold">+25 tables BigQuery</strong> réparties sur <strong className="text-cyan-400 font-semibold">3 domaines métier</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Optimisation du modèle de données et des requêtes <strong className="text-slate-100">BigQuery</strong> (partitionnement, clustering) : <strong className="text-cyan-400 font-semibold">-30 % de coûts</strong> et <strong className="text-cyan-400 font-semibold">-60 % de temps de traitement</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Développement d'un dashboard <strong className="text-slate-100">FinOps</strong> pour le suivi des coûts de la plateforme data
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Participation à la gouvernance data et à la définition des KPIs business avec les équipes métier et le directeur Data
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+
+                  {/* Mission 2: Mes Demoiselles Paris */}
+                  <div className="bg-slate-900/50 border border-slate-800/90 rounded-xl p-5 sm:p-6 transition-all hover:border-cyan-500/30">
+                    <div className="flex flex-wrap items-center justify-between pb-3 mb-4 border-b border-slate-800 gap-2">
+                      <div className="flex items-center gap-2.5">
+                        <span className="px-2.5 py-0.5 rounded text-xs font-mono font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                          Mission
+                        </span>
+                        <h4 className="text-lg font-bold text-slate-100 tracking-wide">
+                          Mes Demoiselles Paris
+                        </h4>
+                      </div>
+                      <span className="text-xs font-mono text-cyan-400 bg-slate-800/90 px-3 py-1 rounded-full border border-slate-700">
+                        3 mois
+                      </span>
+                    </div>
+
+                    <ul className="space-y-3 text-slate-300 text-sm sm:text-base leading-relaxed">
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Développement et optimisation d'un pipeline d'ingestion des données ventes/stock issues de <strong className="text-slate-100">Fastmag</strong> avec <strong className="text-slate-100">Mage AI</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Développement et maintenance de pipelines de transformation <strong className="text-slate-100">dbt</strong> : modèles de données et tests de qualité
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Automatisation des pipelines de transformation avec des workflows <strong className="text-slate-100">Kestra</strong>
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Création de dashboards <strong className="text-slate-100">Looker Studio</strong> dédiés à la performance des magasins (top boutiques par CA, top produits vendus, etc)
+                        </span>
+                      </li>
+                      <li className="flex items-start gap-3">
+                        <CheckCircle2 className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                        <span>
+                          Mise en place de pipelines <strong className="text-slate-100">CI/CD</strong> et d'alertes automatisées <strong className="text-slate-100">Slack/Teams</strong> pour superviser les tests de qualité des données, détecter les anomalies et identifier les pipelines en échec
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="pt-4 border-t border-slate-800">
+                  <div className="text-xs font-mono text-slate-400 uppercase tracking-wider mb-2.5">
+                    Technologies utilisées :
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {['SQL', 'dbt', 'GCP', 'BigQuery', 'Airbyte', 'Mage AI', 'Looker/Data Studio', 'Kestra', 'Python', 'Git', 'GitHub', 'Cloud Run', 'Jira'].map((tech) => (
+                      <span key={tech} className="px-3 py-1 bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 rounded-full text-xs font-mono">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
